@@ -1,0 +1,55 @@
+.addUser {
+    margin: 50px auto;
+    width: 30%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.65);
+  }
+  
+  .addUser .otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .otp-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .otp-box:focus {
+    border-color: #007bff;
+  }
+  
+  .addUser h3 {
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .verify-button-div {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .btn.verify-button {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+  

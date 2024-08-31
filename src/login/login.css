@@ -1,0 +1,60 @@
+.addUser {
+    margin: 50px auto;
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.addUser .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addUser .input-group label {
+    margin-top: 10px;
+}
+
+.addUser .input-group input {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.input-group .btn.btn-login {
+    margin-top: 10px;
+}
+
+.sign-in {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.sign-in .forgot
+{
+    text-align: left;
+    cursor: pointer;
+    color: rgb(0, 0, 255);
+}
+
+.sign-in .btn.btn-sign-up {
+    width: 50%;
+    font-size: 15px;
+}
+
+.addUser h3 {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+ 
+
+.btn.btn-login
+{
+    font-size: 15px;
+}

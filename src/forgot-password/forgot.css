@@ -1,0 +1,47 @@
+.addUser {
+    margin: 50px auto;
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.addUser .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUser .input-group label {
+    margin-top: 10px;
+}
+
+.addUser .input-group input {
+    margin-top: 10px;
+    width: 100%; 
+}
+
+.user-form .otp-button-div {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.user-form .otp-button-div .btn.otp-button {
+    width: 50%; 
+    font-size: 15px; 
+}
+
+.addUser h3 {
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
